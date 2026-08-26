@@ -7,8 +7,8 @@ namespace ImportStorageSystem
     {
         static void Main(string[] args)
         {
-            PackageFlowManager packageFlowManager = new PackageFlowManager();
-            packageFlowManager.Start();
+            Login login = new Login();
+            login.Start();
         }
 
     }

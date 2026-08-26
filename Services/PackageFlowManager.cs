@@ -5,7 +5,7 @@ namespace ImportStorageSystem.Services
 {
     public class PackageFlowManager
     {
-        public void Start() // verificar se ja existe esse nome e lembrar de criar o metodo la no Login.cs
+        public void PackageFlow(string operatorLog)
         {
             Package package = new Package();
             PackageCounter packageCounter = new PackageCounter();
@@ -41,6 +41,7 @@ namespace ImportStorageSystem.Services
                 Console.WriteLine($"CURRENT LOCATION: {package.CurrentLocal}");
                 Console.WriteLine($"DATE/TIME: {packageCounter.CurrentTime}");
                 Console.WriteLine("_______________________________________");
+                Console.WriteLine($"OPERATOR: {operatorLog}");
                 
                 Console.Write("Do you Want to ADD another package (yes/no)?");
                 string exitChoice = Console.ReadLine()?.Trim().ToLower() ?? string.Empty;
