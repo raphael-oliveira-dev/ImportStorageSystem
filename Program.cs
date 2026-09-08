@@ -7,8 +7,8 @@ namespace ImportStorageSystem
     {
         static void Main(string[] args)
         {
-            Login login = new Login();
-            login.Start();
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
         }
 
     }
