@@ -26,4 +26,4 @@ dotnet run
 ```
 
 ## 📬 Find me at
-* **[LinkedIn](https://www.linkedin.com/in/raphael-oliveira-1201053ba/)**
+* [**LinkedIn**](https://www.linkedin.com/in/raphael-oliveira-1201053ba/)
