@@ -12,4 +12,5 @@ namespace ImportStorageSystem
         }
 
     }
+    // Project updated for email verification
 }
